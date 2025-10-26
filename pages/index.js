@@ -1,25 +1,32 @@
 function Home() {
     return (
-        <div className="home-container">
-            <h1>Hello World!</h1>
-            <p>This is my first React app.</p>
+        <html lang="pt_BR">
+            <head>
+                <meta charset="UTF-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <title>Home | TabNews</title>
+            </head>
 
-            <br></br>
+            <body>
+                <h1>Hello World!</h1>
+                <p>This is my first React app.</p>
 
-            <h2>Frase da Asuna</h2>
-            <p>"Eu oudeio Fisica e Analise Matematica 2" </p>
+                <br/>
 
-            <br></br>
+                <h2>Frase da Asuna</h2>
+                <p>"Eu oudeio Fisica e Analise Matematica 2" </p>
 
-            <h2>Frase do Ygor</h2>
-            <p>"O Futuro é Pica"C</p>
+                <br/>
 
-            <br></br>
+                <h2>Frase do Ygor</h2>
+                <p>"O Futuro é Pica"</p>
 
-            <h2>Frase do Haisuu</h2>
-            <p>"Tô tendo que aprender React..."</p>
+                <br/>
 
-        </div>
+                <h2>Frase do Haisuu</h2>
+                <p>"Tô tendo que aprender React..."</p>
+            </body>
+        </html>
     )
 }
 
